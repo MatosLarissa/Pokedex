@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom';
 import { ContainerAll, InfoContainer, Img } from './style';
-import Confuse from '../../public/Confuse.gif'
+import Confuse from '../../public/image/Confuse.gif'
 
 export const Error = () => {
     const history = useHistory();

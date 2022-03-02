@@ -15,7 +15,7 @@ import { Snackbar } from "@material-ui/core";
 import { useState } from "react";
 import { goToPokedex, goToPokemonsList } from "../../router/coordinator";
 import { useHistory } from "react-router-dom";
-import desert from '../../public/desert.gif'
+import desert from '../../public/image/desert.gif'
 
 function Pokedex() {
   const history = useHistory();
