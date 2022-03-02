@@ -1,8 +1,8 @@
 import { DisplayHeader, ImagemPrincipalHeader, DisplayButton, DisplayButton2 } from './style';
-import pokemonLogo from '../../public/pokemonLogo.png'
+import pokemonLogo from '../../public/image/pokemonLogo.png'
 import { Link, useHistory } from 'react-router-dom'
-import arrow from '../../public/arrow.gif'
-import pokedex from '../../public/pokedex.gif'
+import arrow from '../../public/image/arrow.gif'
+import pokedex from '../../public/image/pokedex.gif'
 import { Box } from '@chakra-ui/react'
 
 const Header = (props) => {

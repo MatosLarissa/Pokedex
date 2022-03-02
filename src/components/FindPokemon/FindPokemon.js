@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react';
 import { GlobalStateContext } from '../../global/GlobalStateContext';
 import { Card, FindPokemonContainer, Button, ContainerButton, ImgPokemon, Border, ContainerBorder } from './style'
-import fight from '../../public/fight.gif'
-import trash from '../../public/trash.gif'
+import fight from '../../public/image/fight.gif'
+import trash from '../../public/image/trash.gif'
 
 const FindPokemon = (props) => {
     const { pokedex, setPokedex, pokemonDetail, setPokemonDetail } = useContext(GlobalStateContext);

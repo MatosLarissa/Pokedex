@@ -3,7 +3,7 @@ import { BASE_URL } from "../../constants/BASE_URL";
 import Header from "../../components/Header/Header"
 import { useHistory, useParams } from "react-router-dom";
 import { Progress, Stack, Text } from "@chakra-ui/react";
-import gifPokebola from "../../public/gifPokebola.gif"
+import gifPokebola from "../../public/image/gifPokebola.gif"
 import { Powers, Attacks, ContainerAll, Load, Title, PokeInfosContainer, ImagesContainer, ImgWrapper, StatsContainer } from './style';
 import { goToPokedex, goToPokemonsList } from "../../router/coordinator";
 import axios from "axios";
